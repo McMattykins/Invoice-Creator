@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: #1f2937;
+  font-family: "Inter";
+  color: white;
+  max-width: 550px;
+}
+
+.container {
+  padding: 2em;
+}
+
+button {
+  border: none;
+  background: #d1d4f4;
+  border: #fff 1px solid;
+  border-radius: 5px;
+  padding: 1em;
+  color: #4a4e74;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header {
+  background: #3a69d2;
+  padding: 3em 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray {
+  color: #d5d4d8;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.service {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.dollar {
+  font-weight: 300;
+}
+
+.remove-link {
+  font-size: 8px;
+  font-weight: 400;
+  margin-left: 2em;
+}
+
+.remove-link:hover {
+  cursor: pointer;
+}
+
+.total {
+  line-height: 32px;
+}
+
+#services-el {
+  padding: 1em 0;
+}
+
+#wash-car-el,
+#mow-lawn-el,
+#pull-weeds-el {
+  display: none;
+}
+
+#notes-el {
+  font-size: 12px;
+  padding-top: 11px;
+  align-self: flex-start;
+}
+
+#total-el {
+  flex-grow: 1;
+  text-align: right;
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+#send-invoice-btn {
+  background: #3a69d2;
+  color: white;
+  border: none;
+}
